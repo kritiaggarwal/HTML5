@@ -1,0 +1,80 @@
+
+fieldset{
+	border : none;
+}
+
+legend{
+	color : white;
+}
+
+#main{
+    /*background-image: url("3images/back1.jpg"); */
+	background-color : blue;
+    background-size: 100%;
+    height:610px;
+    width: 600px;
+    position: relative;
+    left:400px;
+    top:0px;
+            
+}
+
+div.transbox {
+	
+	padding:5px;
+    margin: 10px;
+    background-color: skyblue; 
+    border: 4px solid ;
+	border-color : white;
+	border-radius:4px;
+    position: relative;
+}
+
+input
+{
+	position: absolute;
+	right:10px;
+	width:75%;
+	background-color: white;
+	opacity: 1;
+}
+
+
+.radioo{
+	
+	position: absolute;
+	right: 180px;
+	top:25px;
+
+}
+
+textarea
+{
+	position: absolute;
+	right: 10px;
+	width:75%;
+	height:85%;
+}
+
+#txta
+{
+	height:60px;
+}
+ 
+
+.radio_image{
+	width : 15px;
+	height : 11px;
+}
+
+.button_class{
+	border-radius : 6px;
+	color : white;
+	align-left : center;
+	background-color : navy;
+	position : relative;
+	left : 50%;
+
+}
+
+/*******/

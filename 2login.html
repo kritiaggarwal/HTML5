@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+	<title>Login </title>
+	<link rel="stylesheet" type="text/css" href="2login.css">
+	<script type="text/javascript">
+		function validate()
+		{
+			var email=document.getElementById("email").value;
+			var pwd=document.getElementById("pwd").value;
+			if(sessionStorage.email)
+			{
+				if(sessionStorage.email==email && sessionStorage.pwd==pwd)
+				{
+					return true;
+				}
+				else
+				{
+					alert("Please enter correct credentials and try again.");
+					return false;
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<h1>Enter the system</h1>
+		<p>Its necessary to login in Your account in order to sign up for a course.</p>
+	</header>
+	<section>
+		<h3>PLEASE LOGIN <span>HERE</span></h3>
+		<form action="2homepage.html" method="post" id="form1" onsubmit="return validate();">
+			<input type="email" placeholder="Email" name="email" maxlength="40" autocomplete required id="email"><br>
+			<input type="password" placeholder="Password" name="pwd1" required id="pwd"><br>
+			<input type="Submit" value="Login" id="button">
+		</form>
+	</section>
+</body>
+</html>

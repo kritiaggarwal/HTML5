@@ -1,0 +1,111 @@
+body
+		{
+			background-color: #e6e6e6;
+		}
+		header
+		{
+			position:relative;
+			top:0px;
+			left:40px;
+		}
+		h1
+		{
+			color:#004d66;
+			font-family:calibri;
+		}
+		p
+		{
+			color:grey;
+			font-family:calibri;
+		}
+		h3
+		{
+			color:grey;
+			font-family:calibri;
+		}
+		span
+		{
+			color:#004d66;
+		}
+		section
+		{
+			height:400px;
+			width: 587px;
+			float: left;
+			padding:2px;
+			margin: 2px;
+			position: absolute;
+			left:40px;
+		}
+		input
+		{
+			width:550px;
+			height: 30px;
+			border: 1px solid red;
+			border-radius: 5px;
+			margin: 10px;
+			padding:5px;
+		}
+		#button
+		{
+			width:110px;
+			border-radius:0px;
+			border: 2px solid #004d66;
+			font-family:Arial;
+			color:#004d66;
+			background-color: #e6e6e6;
+			font-weight: bold;
+			float:right;
+		}
+		aside
+		{
+			height:400px;
+			width: 587px;
+			float:right;
+			background-color:#004d66; 
+			padding:2px;
+			margin: 2px;
+			position: absolute;
+			right:40px;
+			top:130px;
+		}
+		#asideh
+		{
+			color:#e6e6e6;
+			margin: 5px;
+			padding: 5px;
+		}
+		#checkbox
+		{
+			height:12px;
+			width:12px;
+		}
+		#checkboxtxt
+		{
+			color:#e6e6e6;
+			font-family: calibri;
+		}
+		#button2
+		{
+			width:110px;
+			border-radius:0px;
+			border: 2px solid orange;
+			font-family:Arial;
+			color:#e6e6e6;
+			background-color: #004d66;
+			font-weight: bold;
+			float:right;
+		}
+		#form2name,#form2pwd
+		{
+			border-color: white;
+		}
+		a
+		{
+			font-family: calibri;
+			color:#e6e6e6;
+			position:absolute;
+			bottom:170px;
+			right:10px;
+		}
+	

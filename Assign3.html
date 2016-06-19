@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD> 
+		<TITLE> ASSIGNMENT 3 </TITLE> 
+		<link rel="stylesheet" type="text/css" href="mystyle3.css">
+		<!-- 
+		a. Email ( with html5 email validation).
+		b. Password (It should take minimum 6 charactors ).
+		c. Your project URL ( with html5 url validation).
+		d. Project completion date ( with html5 date validation).
+		e. Current month ( with html5 month validation).
+		f. Current week (with html5 week validation).
+		g. Current time (with html5 time validation).
+		h. Select color (with html5 color features).
+		i. Age (with html5 range features and also show the selected age ).
+		j. Your hobbies (with html5 data list ) 
+-->
+		
+	</HEAD>
+	<BODY>
+		
+		<div id="main">
+		<form method="POST" action="" autocomplete="on" oninput="x.value=parseInt(a.value)" >
+			<br> 
+			<fieldset >
+				<legend> Your details </legend>
+				
+
+				<div class="transbox">
+					Email <input type="email" name="email" placeholder="example@domain.com" > </input><br>
+				</div> 
+				
+				<div class="transbox">
+					Password <input type="password" name="password"  required pattern=".{6,}" placeholder="******" autocomplete="off"> </input> 	<br>
+				</div>
+					
+				<div class="transbox">
+					Project URL <input type="url" name="url"> </input><br> 
+				</div>
+						
+				<div class="transbox" >
+					Project Date <input type="date" name="c_date"></input><br>
+				</div>
+
+				<div class="transbox">
+					Current Month <input type="month" name="month"> </input><br>
+				</div>
+
+				<div class="transbox">
+					Current Week <input type="week" name="week" > </input><br>
+				</div>
+						
+				<div class="transbox">
+					Current Time <input type="time" name="time" > </input>	<br> 
+				</div>
+
+				<div class="transbox">
+					Select Color <input type="color" name="color"> </input><br>
+				</div>
+
+				<div class="transbox">
+					Age <input type="range" name="age" min="0" max="100" id="a" > </input>= <output name="x" for="a"><br>
+				</div>
+				
+				<div class="transbox">
+					Hobbies <input list="hobbies" name="hobbies" > </input>
+					<datalist id="hobbies">
+                                            <option value="Soccer">
+                                            <option value="Reading">
+                                            <option value="Golf">
+                                            <option value="Swimming">
+                                            <option value="Tennis">
+                    </datalist>
+					<br>
+				</div>
+			
+			
+			<button class="button_class" type="button" value="SUBMIT" name="sub" "> SUBMIT </button>
+			</fieldset>
+		</form>
+
+		
+	</BODY>
+</HTML>

@@ -1,0 +1,59 @@
+body
+		{
+			background-color: #e6e6e6;
+		}
+		header
+		{
+			position:relative;
+			top:0px;
+			left:40px;
+		}
+		h1
+		{
+			color:#004d66;
+			font-family:calibri;
+		}
+		p
+		{
+			color:grey;
+			font-family:calibri;
+		}
+		h3
+		{
+			color:grey;
+			font-family:calibri;
+		}
+		span
+		{
+			color:#004d66;
+		}
+		section
+		{
+			height:400px;
+			width: 587px;
+			float: left;
+			padding:2px;
+			margin: 2px;
+			position: absolute;
+			left:40px;
+		}
+		input
+		{
+			width:550px;
+			height: 30px;
+			border: 1px solid red;
+			border-radius: 5px;
+			margin: 10px;
+			padding:5px;
+		}
+		#button
+		{
+			width:110px;
+			border-radius:0px;
+			border: 2px solid #004d66;
+			font-family:Arial;
+			color:#004d66;
+			background-color: #e6e6e6;
+			font-weight: bold;
+			float:right;
+		}
